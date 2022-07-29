@@ -1154,6 +1154,9 @@ section {
   .section {
     padding: 7rem 1rem;
   }
+  .sec1 {
+    padding: 0rem !important;
+  }
   .contact-content-con {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

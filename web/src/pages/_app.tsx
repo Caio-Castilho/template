@@ -10,11 +10,11 @@ export default function MyApp({Component, pageProps} : AppProps<any>){
     <>
         <Head>
             <meta name="theme-color" content="#FFFFFF"/>
-            <title>☺</title>
             <meta name="description" content="Informaçoes profissionais" />
             <link rel="shortcut icon" href="/imagem/c.png" />
-            
+            <title>☺☻☺☻☺☻☺☻☺☻☺☻☺☻</title>
         </Head>
+            
         <Component {...pageProps}/> 
             <Widget/>
     </>
