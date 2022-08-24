@@ -154,7 +154,7 @@
     }
     .right-header{
         .h-shape{
-            left: 29rem;
+            left: 60%;
         }
     }
     .contact-content-con{
@@ -203,6 +203,11 @@
     }
 
 }
+@media screen and (max-width:1263px){
+    .header-content .right-header .h-shape{
+        left: 60%;
+    }
+}
 @media screen and (max-width:660px){
     .blogs{
         grid-template-columns: repeat(1, 1fr);
@@ -239,15 +244,9 @@
     .about-container .left-about{
         padding-right: 0rem;
     }
-    .header-content{
-        grid-template-columns: repeat(1, 1fr);
-        padding-bottom: 6rem;
-    }
+
 
     .left-header{
-        .h-shape{
-            display: none;
-        }
         .h-border{
             display: none;
         }
@@ -258,15 +257,11 @@
     }
     .right-header{
         .h-shape{
-            display: none;
+            left: 60%;
         }
         .h-border{
             margin-left: -8px;
         }
-        grid-row: 1;
-        padding-right: 0rem !important;
-        width: 90%;
-        margin: 0 auto;
         .name{
             font-size: 2.9rem !important;
             text-align: center;
